@@ -1,9 +1,11 @@
-import './App.css';
-
+import './styles/App.css';
+import HomePage from './pages/HomePage'
 function App() {
   return (
     <div>
-      <div>Hello World</div>
+      <div>
+        <HomePage/>
+      </div>
     </div>
   )
 }
